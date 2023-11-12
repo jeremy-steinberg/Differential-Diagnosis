@@ -1,0 +1,199 @@
+/* Global Styles */
+:root {
+  --primary-color: #6e79ee;
+  --secondary-color: #eeac6e;
+  --error-color: #a94442;
+  --warning-color: #8a6d3b;
+  --success-color: #26a69a;
+  --light-background: #f2dede;
+  --dark-text: #444;
+  --light-text: #fff;
+  --background-color: #f5f5f5; /* Added a global background color */
+  --border-color: #ddd; /* Added a global border color */
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background-color); /* Added background color */
+}
+
+.differential-container {
+  max-width: 1200px;
+  padding: 15px;
+  margin: auto;
+}
+
+/* Header */
+.ddx-header {
+  background-color: #e9e9e9;
+  padding: 30px;
+  text-align: center;
+  margin: 10px 0;
+  border-bottom: 1px solid var(--border-color); /* Added border */
+  color: var(--primary-color); /* Styled title */
+}
+
+/* Search */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 15px;
+  font-size: 17px;
+  border: 1px solid var(--primary-color);
+  max-width: 300px;
+  margin-right: 8px; /* Added margin */
+}
+
+.search-container i {
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: var(--light-text);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px; /* Added border radius */
+}
+
+/* Message */
+.message {
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #fff; /* Added background color */
+  border: 1px solid var(--border-color); /* Added border */
+  margin-bottom: 20px; /* Added margin */
+  border-radius: 4px; /* Added border radius */
+}
+
+/* List */
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.collection-item {
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 4px;
+    border: 1px solid var(--border-color); /* Added border */
+}
+
+.collection-item h3 {
+  margin-top: 0;
+}
+
+/* Diagnosis Categories */
+.diagnosis {
+  padding: 10px;
+  border-left: 5px solid;
+}
+
+.dont-miss {
+  background-color: var(--light-background);
+  color: var(--error-color);
+  border-color: var(--error-color);
+}
+
+.common-missed {
+  background-color: #fcf8e3;
+  color: var(--warning-color);
+  border-color: var(--warning-color);
+}
+
+.double-miss {
+  background-image: linear-gradient(to right, var(--light-background), #fcf8e3);
+  color: var(--error-color);
+  border-color: var(--error-color);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.pagination li {
+  display: flex; /* Using flexbox */
+  justify-content: center; /* Center horizontally */
+  padding: 8px 12px; /* Adjusted padding for better sizing */
+  margin: 0 4px; /* Reduced margin for tighter layout */
+  background-color: #fff; /* Lighter background for a modern look */
+  color: var(--dark-text);
+  border: 1px solid var(--border-color); /* Added a subtle border */
+  border-radius: 4px; /* Softened edges */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  min-width: 40px; /* Set a minimum width */
+  flex-shrink: 0; /* Prevent shrinking smaller than content */
+  text-align: center; /* Ensure text is centered */
+}
+
+.pagination li:hover,
+.pagination li:focus {
+  background-color: var(--primary-color); /* Hover and focus effect */
+  color: var(--light-text);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+}
+
+.pagination li.active {
+  background-color: var(--primary-color); /* Active item styling */
+  color: var(--light-text);
+  border: 1px solid transparent; /* Removing border for active item */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* More pronounced shadow for active item */
+}
+
+.pagination li.disabled {
+  color: #aaa; /* Styling for disabled items */
+  cursor: not-allowed; /* Indicating non-interactivity */
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+
+/* Pagination Link */
+.pagination li a {
+  display: block; /* Ensuring full area is clickable */
+  text-decoration: none; /* Removing default link styling */
+  color: inherit; /* Ensuring text color consistency */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 8px 12px; /* Adjusting padding to match the parent */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .pagination li {
+    padding: 6px 10px; /* Smaller padding for smaller screens */
+    margin: 0 3px; /* Reduced margin */
+  }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .search-container input {
+    width: 100%; /* Adjusted for smaller screens */
+  }
+
+  .ddx-header {
+    font-size: 1.5rem;
+  }
+}
+
+/* Additional Styling */
+/* Add any additional CSS styles that are specific to your application */
+
+/* Overwrite divi */
+p:not(.has-background):last-of-type {
+  padding-bottom: 10px;
+}

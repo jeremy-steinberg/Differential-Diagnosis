@@ -1,0 +1,40 @@
+<html><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<div class="differential-container">
+
+
+  <div id="PresentingComplaints">
+
+        <div class="topnav">
+                <h1 class="ddx-header">Differential Diagnosis Checklist</h1>
+
+                
+    <div class="search-container">
+    <input type="text" id="filterInput" placeholder="Search presenting complaint..." class="search">
+         
+     </div>
+
+    </div>
+    <div class="message">
+      <span class="dont-miss">Don't miss</span><span><br></span><span class="common-missed"> Commonly missed</span><br /> <p>Diagnoses are listed very roughly in order of prevalence<br /> References: John Ely et al's <a href="https://www.ncbi.nlm.nih.gov/pubmed/21248608">checklists</a>, Brukner & Khan's Clinical Sports Medicine
+    4th edition, uptodate and other references when stated.</p>
+    </div>
+    <ul class="pagination"></ul>
+
+    <div id="list"></div>
+
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
