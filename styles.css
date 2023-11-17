@@ -12,18 +12,15 @@
   --border-color: #ddd; /* Added a global border color */
 }
 
-body {
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: var(--background-color); /* Added background color */
-}
-
 .differential-container {
   max-width: 1200px;
   padding: 15px;
   margin: auto;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
 /* Header */
@@ -125,7 +122,7 @@ body {
 .pagination li {
   display: flex; /* Using flexbox */
   justify-content: center; /* Center horizontally */
-  padding: 8px 12px; /* Adjusted padding for better sizing */
+  /*padding: 8px 12px;  Adjusted padding for better sizing */
   margin: 0 4px; /* Reduced margin for tighter layout */
   background-color: #fff; /* Lighter background for a modern look */
   color: var(--dark-text);
@@ -133,9 +130,10 @@ body {
   border-radius: 4px; /* Softened edges */
   cursor: pointer;
   transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
-  min-width: 40px; /* Set a minimum width */
+  min-width: 65px; /* Set a minimum width */
   flex-shrink: 0; /* Prevent shrinking smaller than content */
   text-align: center; /* Ensure text is centered */
+  box-sizing: border-box;
 }
 
 .pagination li:hover,
@@ -196,4 +194,8 @@ body {
 /* Overwrite divi */
 p:not(.has-background):last-of-type {
   padding-bottom: 10px;
+}
+
+#complaintlist {
+  list-style: none;
 }

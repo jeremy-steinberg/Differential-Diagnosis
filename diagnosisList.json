@@ -411,6 +411,30 @@
             "?Deep vein thrombosis"
         ]
     },
+    "catatonia": {
+    	"title": "Catatonia",
+	"differential": [
+            "Mood disorders",
+            "Schizophrenia",
+            "Autism spectrum disorder",
+            "Dementia",
+            "Acute psychosis",
+            "Intoxication (cannabis, cocaine)",
+            "Withdrawal (alcohol, opioids, benzodiazepines)",
+            "?Neuroleptic malignant syndrome",
+            "Serotonin syndrome",
+            "?Autoantibody encephalitis",
+            "Epilepsy",
+            "?Delirium",
+            "?Encephalopathy",
+            "?Focal cerebral lesions",
+            "Medications",
+            "?Metabolic disorders",
+            "?Postpartum psychosis",
+            "Urinary tract infections in older patients",
+	    "Reference: https://www.nejm.org/doi/full/10.1056/NEJMra2116304"
+        ]
+    },
     "chestPain": {
         "title": "Chest pain",
         "differential": [
@@ -1072,6 +1096,15 @@
             "Wegener's granulomatosis "
         ]
     },
+    "femaleSexualPain": {
+        "title": "Female Sexual Pain (FSP)",
+        "differential": [
+            "Superficial Dyspareunia: Reduced estrogen levels, Decreased lubrication, Myofascial pelvic pain syndrome (MPPS), Vulvar pain of unknown cause (vulvodynia), Alterations of vaginal anatomy (congenital anomalies, skin diseases, postprocedure changes), Persistent genital arousal disorder (PGAD)",
+            "Deep Dyspareunia: Endometriosis, Adnexal masses, Pelvic inflammatory disease, Uterine fibroids (leiomyomas), Myofascial pelvic pain syndrome (MPPS), Malignancy and its treatments, Surgical consequences (e.g., shortened vagina, neuropathic pain)",
+            "Other Conditions Contributing to Increased Pain: Chronic pelvic pain, Vulvar pain of unknown cause (vulvodynia or vestibulodynia), Interstitial cystitis/bladder pain syndrome (IC/BPS), Pudendal neuralgia, Pelvic congestion syndrome, Persistent genital arousal disorder (PGAD)",
+            "Psychosocial Contributors: Intimate partner violence (IPV), Psychiatric illness"
+        ]
+    },
     "fever": {
         "title": "Fever (acute, uncertain source) ",
         "differential": [
@@ -1645,27 +1678,30 @@
     "nausea": {
         "title": "Nausea, vomiting ",
         "differential": [
-            "Gastroenteritis, gastritis",
-            "*Drugs (opioids, iron, chemotherapy)",
+            "Gastroenteritis",
+            "gastritis",
+            "*Drugs and Treatments (Cancer Chemotherapy: cisplatinum, dacarbazine, nitrogen mustard, etoposide, methotrexate, cytarabine, fluorouracil, vinblastine, tamoxifen; Analgesics: Aspirin, Nonsteroidal antiinflammatory drugs, Auranofin, Antigout drugs; Cardiovascular Medications: Digoxin, Antiarrhythmics, Antihypertensives, Beta blockers, Calcium channel antagonists; Diuretics; Hormonal Preparations/Therapies: Oral antidiabetics, Oral contraceptives; Antibiotics/Antivirals: Erythromycin, Tetracycline, Sulfonamides, Antituberculous drugs, Acyclovir; Gastrointestinal Medications: Sulfasalazine, Azathioprine; Nicotine; CNS Active Drugs: Narcotics, Antiparkinsonian drugs, Antiseizure medications; Antiasthmatics: Theophylline; Radiation therapy; Ethanol abuse; Jamaican vomiting sickness; Hypervitaminosis)",
             "?Pregnancy",
             "Cannabinoid hyperemesis",
-            "Migraine ?Diverticulitis",
+            "Migraine",
+            "?Diverticulitis",
             "?*Appendicitis",
             "?Carbon monoxide",
             "?Bowel obstruction",
             "?Addison's disease", 
-            "Adrenal insufficiency",
-            "Gastroparesis (diabetes)",
+            "Gastroparesis (e.g. diabetes)",
+            "?Obstruction (gastric outlet or small bowel)",
             "?Serotonin syndrome",
             "Eating disorder",
             "Cyclic vomiting syndrome",
             "?Pyelonephritis",
             "Acute intermittent porphyria",
             "Irritable bowel syndrome",
-            "Parathyroid disorders",
-            "Vertigo Superior mesenteric artery syndrome",
+            "Hyperparathyroidism and hypoparathyroidism",
+            "Vertigo",
+            "Superior mesenteric artery syndrome",
             "Peptic ulcer disease",
-            "Psychogenic vomiting, anxiety, depression",
+            "Psychiatric disease: psychogenic vomiting, anxiety, depression, emotional response, anorexia nervosa, bulimia nervosa",
             "Pain (especially visceral)",
             "Severe coughing",
             "Pancreatitis",
@@ -1682,12 +1718,12 @@
             "?Lymphoma",
             "?*Intracranial hemorrhage",
             "?Intracranial abscess, meningitis",
-            "Inner ear (e.g., labyrinthitis, Meniere's)",
+            "Ear (e.g., vestibular neuritis, Meniere's, otitis media, wax impaction, motion sickness)",
             "?Uremia",
             "?*Diabetic ketoacidosis",
             "Lactose intolerance",
             "Food poisoning",
-            "?Thyroid disorders xx",
+            "?Hyperthyroidism",
             "?*Congestive heart failure "
         ]
     },
@@ -2352,42 +2388,42 @@
         "title": "Wrist pain (subacute) - volar",
         "differential": [
             "Scaphoid aseptic necrosis",
-            "Stenosing tendinopathies ",
-            "Flexor carpi ulnaris tendinopathy ",
-            "Carpal tunnel syndrome ",
-            "Ulnar tunnel syndrome ",
-            "Pisotriquetral degenerative joint disease ",
-            "Avascular necrosis of the capitate (weightlifters) ",
+            "Stenosing tendinopathies",
+            "Flexor carpi ulnaris tendinopathy",
+            "Carpal tunnel syndrome",
+            "Ulnar tunnel syndrome",
+            "Pisotriquetral degenerative joint disease",
+            "Avascular necrosis of the capitate (weightlifters)",
             "Extensor pollicis longus impingement/rupture (gymnasts) "
         ]
     },
     "wristSubacuteUlnar": {
         "title": "Wrist pain (subacute) - ulnar",
         "differential": [
-            "Triangular fibrocartilage complex tears ",
-            "Ulnar Impaction syndrome ",
-            "Distal radioulnar joint instability ",
-            "Carpal instability ",
-            "Scapholunate dissociation ",
-            "Ulnar nerve compression (cyclists, golfers) ",
+            "Triangular fibrocartilage complex tears",
+            "Ulnar Impaction syndrome",
+            "Distal radioulnar joint instability",
+            "Carpal instability",
+            "Scapholunate dissociation",
+            "Ulnar nerve compression (cyclists, golfers)",
             "Flexor carpi ulnaris tendinopathy",
             "Extensor carpi uinaris tendinopathy ",
             "Extensor carpi ulnaris subluxation",
-            "Distal radioulnar joint impaction syndromes (golfers) ",
+            "Distal radioulnar joint impaction syndromes (golfers)",
             "Scaphoid impaction syndrome "
         ]
     },
     "wristSubacuteRadial": {
         "title": "Wrist pain (subacute) - radial",
         "differential": [
-            "Scaphoid fracture (missed) ",
-            "Non-union of scaphoid fracture ",
-            "De Quervain's tenosynovitis ",
-            "Scaphoid impaction syndrome ",
-            "Intersection syndrome ",
-            "Flexor carpi radialis tendinopathy ",
-            "Dorsal pole of lunate impingement on distal radius (gymnasts) ",
-            "Scapholunate dissociation "
+            "Scaphoid fracture (missed)",
+            "Non-union of scaphoid fracture",
+            "De Quervain's tenosynovitis",
+            "Scaphoid impaction syndrome",
+            "Intersection syndrome",
+            "Flexor carpi radialis tendinopathy",
+            "Dorsal pole of lunate impingement on distal radius (gymnasts)",
+            "Scapholunate dissociation"
         ]
     }
 }
